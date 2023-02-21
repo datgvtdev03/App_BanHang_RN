@@ -14,7 +14,7 @@ export default function Login({navigation}) {
       isCorrect = true;
     }
     if(isCorrect) {
-      navigation.navigate('HomeScreen', {
+      navigation.navigate('HomeTab', {
         user: {
           name: username,
           pass: password,
